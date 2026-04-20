@@ -1,0 +1,73 @@
+{
+  "id": "/sschat/",
+  "name": "ASChat",
+  "short_name": "ASChat",
+  "description": "Simple, fast, and private messaging",
+  "start_url": "/sschat/",
+  "scope": "/sschat/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0D0D14",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/sschat/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/sschat/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/sschat/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/sschat/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/sschat/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "ASChat messaging screen"
+    },
+    {
+      "src": "/sschat/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ASChat messaging screen"
+    }
+  ],
+  "categories": ["social", "communication"],
+  "shortcuts": [
+    {
+      "name": "Open Chats",
+      "short_name": "Chats",
+      "description": "Go to your chats",
+      "url": "/sschat/chats.html",
+      "icons": [{ "src": "/sschat/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "New Message",
+      "short_name": "Message",
+      "description": "Start a new chat",
+      "url": "/sschat/chats.html",
+      "icons": [{ "src": "/sschat/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
